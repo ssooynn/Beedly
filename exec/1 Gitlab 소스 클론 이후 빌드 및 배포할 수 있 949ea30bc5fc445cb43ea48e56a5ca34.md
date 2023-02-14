@@ -166,7 +166,7 @@ sudo certbot renew --dry-run
 - sites-enabled에 심볼릭 링크 설정 및 재시작
     
     ```bash
-    sudo ln -s /etc/nginx/sites-available/test.conf /etc/nginx/sites-enabled
+    sudo ln -s /etc/nginx/sites-available/test.conf /etc/nginx/sites-enable
     sudo service nginx restart # nginx 재시작
     ```
     
