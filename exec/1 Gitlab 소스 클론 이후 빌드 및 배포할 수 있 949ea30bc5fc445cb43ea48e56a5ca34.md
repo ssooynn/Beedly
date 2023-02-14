@@ -63,7 +63,7 @@ docker --version
 
 ```bash
 sudo wget https://dev.mysql.com/get/mysql-apt-config_0.8.13-1_all.deb
-sudo dpkg -i mysql-apt-config_0.8,13-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.13-1_all.deb
 ```
 
 ### 2. MySQL-Server 설치
