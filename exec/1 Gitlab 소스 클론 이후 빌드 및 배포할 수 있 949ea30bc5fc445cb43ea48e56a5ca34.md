@@ -75,7 +75,7 @@ sudo apt-get install mysql-server
 
 ### 3. Mysql 외부 원격 접속 설정
 
-- /etc/mysql/mysql.conf.d/mysqld.cnf 파일 수정
+- /etc/mysql/mysql.conf.d/mysql.cnf 파일 수정
 - bind-address 127.0.0.1을 0.0.0.0으로 수정
 
 ### 4. MySQL 접속 계정
